@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<gameml.gomoku.GomokuView android:id="@+id/gomokuview"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:text="aaaaa" tileSize="24" />
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true" android:gravity="fill">
+		
+		<TextView 
+			android:id="@+id/text" 
+			android:text="hahahhaha"
+			android:visibility="visible" 
+			android:layout_centerInParent="true"
+			android:gravity="center_horizontal" 
+			android:textColor="#68CDFC"
+			android:textStyle="normal"
+			android:textSize="20sp"
+			android:typeface="sans" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+			
+		</RelativeLayout>
+
+</FrameLayout>
